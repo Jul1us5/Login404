@@ -1,40 +1,68 @@
 body {
-
+background-color: grey;
 
 }
 
 .container {
-
-
+display: inline-block;
+width: 800px;
+margin-top: 20px;
+margin-left: calc( (100% - 800px) / 2);
+background-color: yellow;
 }
 
-    .header {
-
+    header {
+        display: inline-block;
+        width: 100%;
     }
         .logo {
-
+            display: inline-block;
+            float: left;
+            height: 60px;
         }
-            .nav {
+            nav {
+                display: inline-block;
+                float: right;
+                background-color: aqua;
+                font-size: 20px;
+                margin-top: 20px;
 
             }
                 a {
-
+                    display: inline-block;
+                    float: left;
+                    font-size: 20px;
+                    line-height: 20px;
+                    margin-left: 20px;
             }
                     .btn {
 
             }
     section {
+        display: inline-block;
+        width: 100%;
+        margin-top: 80px;
 
     }
         div {
-
+            display: inline-block;
+            float: left;
+            width: 42%;
+            margin-left: 4%;
+            margin-right: 4%;
         }
         h1 {
 
         }
         p {
-            
+
         }
         .inner-logo {
+            display: inline-block;
+            float: right;
+            width: 42%;
+            margin-left: 4%;
+            margin-right: 4%;
+
 
         }
