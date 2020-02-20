@@ -1,5 +1,5 @@
 body {
-background-color: grey;
+background-color: white;
 
 }
 
@@ -8,6 +8,7 @@ display: inline-block;
 width: 800px;
 margin-top: 20px;
 margin-left: calc( (100% - 800px) / 2);
+/* background-color: grey; */
 }
 
     header {
@@ -23,7 +24,7 @@ margin-left: calc( (100% - 800px) / 2);
                 display: inline-block;
                 float: right;
                 font-size: 20px;
-                margin-top: 20px;
+                margin-top: 16px;
 
             }
                 a {
@@ -32,9 +33,17 @@ margin-left: calc( (100% - 800px) / 2);
                     font-size: 20px;
                     line-height: 20px;
                     margin-left: 20px;
+                    color: #BCBCBC;
+                    text-decoration: none;
             }
                     .btn {
-
+                        border: 2px solid #BCBCBC;
+                        border-radius: 20px;
+                        padding: 2px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        margin-top: -4px;
+            
             }
     section {
         display: inline-block;
@@ -50,10 +59,20 @@ margin-left: calc( (100% - 800px) / 2);
             margin-right: 4%;
         }
         h1 {
+            display: inline-block;
+            width: 100%;
+            font-size: 70px;
+            line-height: 70px;
+            color: grey;
+
 
         }
         p {
-
+            display: inline-block;
+            width: 100%;
+            color: #BCBCBC;
+            font-size: 30px;
+            line-height: 35px;
         }
         .inner-logo {
             display: inline-block;
